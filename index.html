@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+    <title>
+        datatable test
+    </title>
+</head>
+
+<body>
+    <table id="table1">
+        <thead>
+            <tr>
+                <td>lion</td>
+                <td>tiger</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>leopard</td>
+                <td>zebra</td>
+            </tr>
+            <tr>
+                <td>elephant</td>
+                <td>camel</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+            $("#table1").DataTable();
+        });
+    </script>
+
+</body>
+
+</html>
